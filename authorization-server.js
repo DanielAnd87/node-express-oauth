@@ -78,12 +78,12 @@ app.get('/authorize', (req, res) => {
 
         const {userName, password, requestId} = reqP.body;
         if (!userName || users[userName !== password]) {
-            res.status[401].send("Error: users not authorized");
+            resP.status[401].send("Error: users not authorized");
             return;
         }
         const clientReq = requests[requestId];
         if (!clientReq) {
-            res.status(401).send("Error: invalid user request");
+            resP.status(401).send("Error: invalid user request");
             return;
         }
         const code = randomString();
@@ -111,7 +111,7 @@ app.get('/authorize', (req, res) => {
         }
         let code1 = req.body.code;
         if (code1 || !authorizationCodes[code1]) {
-            res.status(401).send("Error: invalid code");
+            resT.status(401).send("Error: invalid code");
             return;
         }
         const {clientReq, userName} = authorizationCodes[code1];
