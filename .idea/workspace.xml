@@ -34,6 +34,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b8a790a2-c67b-42e5-9696-425527e75b0e" name="Default Changelist" comment="second challange, not working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/authorization-server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +75,7 @@
       <updated>1605621870679</updated>
       <workItem from="1605621872445" duration="2443000" />
       <workItem from="1605624428455" duration="16358000" />
+      <workItem from="1605774602870" duration="7429000" />
     </task>
     <task id="LOCAL−00001" summary="second challange, not working">
       <created>1605773087549</created>
@@ -109,6 +111,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second challange, not working" />
@@ -131,16 +134,21 @@
       <screen x="1440" y="-1438" width="3840" height="2160" />
     </state>
     <state width="2422" height="661" key="GridCell.Tab.0.right/0.0.1440.900/1440.-1438.3840.2160@1440.-1438.3840.2160" timestamp="1605622051262" />
-    <state x="236" y="49" key="SettingsEditor" timestamp="1605772256764">
+    <state x="236" y="49" key="SettingsEditor" timestamp="1605780016238">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="2170" y="-719" key="SettingsEditor/0.0.1440.900/1440.-1438.3840.2160@1440.-1438.3840.2160" timestamp="1605694209641" />
     <state x="236" y="49" key="SettingsEditor/0.0.1440.900/1440.116.1032.720@0.0.1440.900" timestamp="1605772256764" />
+    <state x="236" y="49" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605780016238" />
     <state x="2170" y="-719" key="SettingsEditor/0.23.1440.877/1440.-1438.3840.2160@1440.-1438.3840.2160" timestamp="1605624405859" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605773878783">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.116.1032.720@0.0.1440.900" timestamp="1605773878783" />
+    <state x="16" y="93" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605779992003">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="16" y="93" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1605779992003" />
     <state x="3173" y="-437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605703516314">
       <screen x="1440" y="-1438" width="3840" height="2160" />
     </state>
