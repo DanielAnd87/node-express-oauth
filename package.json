@@ -5,6 +5,10 @@
 	"main": "client.js",
 	"scripts": {
 		"test": "mocha --exit ./test/**/*",
+		"test1": "npx mocha --exit ./test/module1/*.js",
+		"test2": "npx mocha --exit ./test/module2/*.js",
+		"test3": "npx mocha --exit ./test/module3/*.js",
+		"test4": "npx mocha --exit ./test/module4/*.js",
 		"test-dev": "mocha --watch ./test/**/*"
 	},
 	"repository": {
