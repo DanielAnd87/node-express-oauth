@@ -74,6 +74,22 @@ app.get("/authorize", (req, res) => {
     })
 })
 
+app.get("/user-info", (req, res) =>{
+    const authorization = req.headers.authorization;
+    if (!authorization) {
+        res.status(401).send("Error: header does not exist");
+        return;
+    }
+    const authData = authorization.split('bearer '.length);
+    let signatureValid = jwt.verify(authData, config.publicKey, "RS256");
+    if (!signatureValid) {
+        res.status(401).send("Error: signature invalid");
+        return;
+    }
+    const userName = authorization.split('bearer '.length);
+    res.json({});
+})
+
 app.post("/approve", (req, res) => {
     const { userName, password, requestId } = req.body
     if (!userName || users[userName] !== password) {
